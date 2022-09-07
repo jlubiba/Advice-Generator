@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/jlubiba/Advice-Generator)
+- Live Site URL: [Add live site URL here](https://jlubiba.github.io/Advice-Generator/)
 
 ## My process
 
