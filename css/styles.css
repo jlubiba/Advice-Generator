@@ -1,0 +1,106 @@
+/***********************  TAGS SECTION  **********************/
+body {
+    background-color: hsl(218, 23%, 16%);
+    color: hsl(193, 38%, 86%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+button {
+    margin: auto;
+}
+
+.colors {
+    /* Light Cyan */
+    color: hsl(193, 38%, 86%);
+    /* Neon Green */
+    color: hsl(150, 100%, 66%);
+    /* Grayish Blue */
+    color: hsl(217, 19%, 38%);
+    /* Dark Grayish Blue */
+    color: hsl(217, 19%, 24%);
+    /* Dark Blue */
+    color: hsl(218, 23%, 16%);
+}
+
+
+
+/***********************  CLASSES SECTION  **********************/
+
+.advice {
+    font-size: 1.75rem;
+}
+
+.attribution{
+    bottom: 0;
+    right: 25%;
+    left: 25%;
+    position: fixed;
+}
+
+.btn-box {
+    align-items: center;
+    border: 0;
+}
+
+.content-box {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 6%;
+    margin: 10% auto;
+    position: relative;
+    width: 50%;
+}
+
+.content-box>* {
+    padding: 3%;
+}
+
+.dice-circle {
+    background-color: hsl(150, 100%, 66%);
+    border: 0;
+    border-radius: 100%;
+    margin: auto;
+    padding: 2.5%;
+    position: absolute;
+    transform: translate(-50%, -30%);
+}
+
+.dice-circle:hover {
+    /* box-shadow: shift-left(-)/right(+) shift-up(-)/down(+) blur spread  */
+    /* Inside the color, adding one more thing controls the opacity here it's "0.7" */
+    box-shadow: 0px 0px 50px 3px hsl(150, 100%, 66%, 0.7);
+    -webkit-box-shadow: 5px 5px 50px 3px hsl(150, 100%, 66%, 0.7);
+}
+
+/***********************  IDs SECTION  **********************/
+
+#advice-number {
+    color: hsl(150, 100%, 66%);
+    margin: 5% auto;
+    text-align: center;
+}
+
+#dice {
+    margin: auto;
+}
+
+
+/***********************  MEDIA QUERIES SECTION  **********************/
+@media only screen and (min-width: 1441px){
+    .content-box{
+      width: 55%;
+    }
+  }
+  
+@media only screen and (min-width: 376px) and (max-width: 575px){
+    .content-box{
+      width: 80%;
+    }
+  }
+  
+  @media only screen and (max-width: 375px){
+    .content-box{
+      width: 90%;
+    }
+  }
