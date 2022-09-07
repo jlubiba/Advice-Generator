@@ -34,9 +34,14 @@ button {
 
 .attribution{
     bottom: 0;
+    font-size: 11px;
     right: 25%;
     left: 25%;
     position: fixed;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 .btn-box {
